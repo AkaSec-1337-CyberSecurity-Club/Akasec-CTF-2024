@@ -4,7 +4,7 @@ Source code for all the challenges posted in Akasec CTF 2024(with some writeups)
 <br>
 
 <p align="center">
-  <img src="./images/ctf-logo.png" alt="drawing" width="350"/>
+  <img src="[./images/ctf-logo.png](https://github.com/RedaHmimchi/AKASEC-CTF-2024-challenges/raw/main/images/ctf-logo.png)" alt="drawing" width="350"/>
 </p>
 
 
