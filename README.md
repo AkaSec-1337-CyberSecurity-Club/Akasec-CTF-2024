@@ -16,13 +16,19 @@ Source code for all the challenges posted in Akasec CTF 2024(with some writeups)
   [Sussy](https://github.com/RedaHmimchi/AKASEC-CTF-2024-challenges/blob/main/%5BForensics%5D%20Sussy.md)
   
   [Sharing is not Caring](https://github.com/RedaHmimchi/AKASEC-CTF-2024-challenges/blob/main/%5BForensics%5D%20Sharing%20is%20not%20Caring.md)
-  
+
 
 ------------------------------
 # MISC :
 
+  [pyJail](https://github.com/hel-makh/Akasec-CTF-2024-Misc-Challenges/tree/main/pyJail)
+  
+  [so_long](https://github.com/hel-makh/Akasec-CTF-2024-Misc-Challenges/tree/main/so_long)
+  
   [Matry-Steg-oshka](https://github.com/RedaHmimchi/AKASEC-CTF-2024-challenges/blob/main/%5BSteganography%5D%20Matry-Steg-oshka.md)
 
+
+------------------------------
 # CRYPTO
 
 [Lost](https://github.com/AkaSec-1337-CyberSecurity-Club/Akasec-CTF-2024/tree/main/crypto#lost)
