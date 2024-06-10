@@ -1,0 +1,7 @@
+c++  -O3 -fomit-frame-pointer -fno-exceptions -fno-rtti -fno-inline -fstack-protector-strong -march=native -flto -fvisibility=hidden  main.cpp server.cpp daemon_server.cpp md5.cpp -o orgalorg_not_stripped &&
+strip --strip-all -o orgalorg orgalorg_not_stripped
+
+
+// I think I used this one
+g++ -O3 -finline-functions -funroll-loops -fPIC -fvisibility=hidden -fstack-protector-strong -fPIE  main.cpp server.cpp daemon_server.cpp md5.cpp -o orgalorg_not_stripped
+strip --strip-all -o orgalorg orgalorg_not_stripped

@@ -1,0 +1,27 @@
+FROM gcc:13.3.0
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    g++ \
+    make \
+    libstdc++6 \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN useradd -m ctfuser
+
+WORKDIR /home/ctfuser
+
+COPY orgalorg start.sh flag.txt ./
+
+RUN chown ctfuser:ctfuser orgalorg flag.txt && \
+    chmod 555 orgalorg && \
+    chmod 444 flag.txt && \
+    chmod +x start.sh
+
+RUN chmod 555 /home/ctfuser && \
+    chmod 1777 /tmp
+
+EXPOSE 666
+
+USER root
+
+CMD ["./start.sh"]
