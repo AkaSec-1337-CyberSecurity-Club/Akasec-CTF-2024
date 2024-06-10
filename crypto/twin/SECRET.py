@@ -1,0 +1,1 @@
+FLAG = b"AKASEC{be_on_the_right_side_of_history_free_palestine}"

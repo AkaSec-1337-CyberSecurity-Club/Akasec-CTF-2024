@@ -1,0 +1,1 @@
+FLAG = b'AKASEC{akasec+palestine=<3}'
