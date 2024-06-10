@@ -22,3 +22,10 @@ Source code for all the challenges posted in Akasec CTF 2024(with some writeups)
 # MISC :
 
   [Matry-Steg-oshka](https://github.com/RedaHmimchi/AKASEC-CTF-2024-challenges/blob/main/%5BSteganography%5D%20Matry-Steg-oshka.md)
+
+# CRYPTO
+
+[Lost](https://github.com/AkaSec-1337-CyberSecurity-Club/Akasec-CTF-2024/tree/main/crypto#lost)
+[Power Over All](https://github.com/AkaSec-1337-CyberSecurity-Club/Akasec-CTF-2024/tree/main/crypto#Power-over-all)
+[GCD](https://github.com/AkaSec-1337-CyberSecurity-Club/Akasec-CTF-2024/tree/main/crypto#GCD)
+[twin](https://github.com/AkaSec-1337-CyberSecurity-Club/Akasec-CTF-2024/tree/main/crypto#twin)
