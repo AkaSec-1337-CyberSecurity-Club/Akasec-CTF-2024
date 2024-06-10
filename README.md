@@ -26,6 +26,9 @@ Source code for all the challenges posted in Akasec CTF 2024(with some writeups)
 # CRYPTO
 
 [Lost](https://github.com/AkaSec-1337-CyberSecurity-Club/Akasec-CTF-2024/tree/main/crypto#lost)
+
 [Power Over All](https://github.com/AkaSec-1337-CyberSecurity-Club/Akasec-CTF-2024/tree/main/crypto#Power-over-all)
+
 [GCD](https://github.com/AkaSec-1337-CyberSecurity-Club/Akasec-CTF-2024/tree/main/crypto#GCD)
+
 [twin](https://github.com/AkaSec-1337-CyberSecurity-Club/Akasec-CTF-2024/tree/main/crypto#twin)
