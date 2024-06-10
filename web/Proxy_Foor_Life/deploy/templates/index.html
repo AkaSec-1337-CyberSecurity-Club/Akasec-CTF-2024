@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>URL Fetcher</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-4">URL Fetcher</h1>
+
+        <form method="POST" class="mt-4">
+            <div class="form-group">
+                <label for="url">URL:</label>
+                <input type="text" id="url" name="url" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-primary">Fetch</button>
+        </form>
+
+        {{if .error}}
+        <div class="alert alert-danger mt-4">
+            {{.error}}
+        </div>
+        {{end}}
+
+        {{if .result}}
+        <div class="mt-4">
+            <h2>Result:</h2>
+            <div class="border p-3" style="height: 300px; overflow: auto;">
+                <div>{{.result}}</div>
+            </div>
+        </div>
+        {{end}}
+    </div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+[package]
+name = "rustyroad"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rocket = { version = "0.5.0", features = ["json"]}
+jsonwebtoken = "7.2.0"
+serde = { version = "1.0", features = ["derive"] }
+rand = "0.8.4"
+lazy_static = "1.4.0"
+aes = "0.7.4"
+block-modes = "0.8.1"
+hex = "0.4.3"
+bcrypt = "0.9.0"
+reqwest = { version = "0.11", features = ["json"] }
+serde_json = "*"
+tokio = { version = "1", features = ["full"] }
+
+[dependencies.rocket_dyn_templates]
+version = "0.1.0"
+features = ["handlebars", "tera"]

@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  adminlogging:
+    build:
+      context: ./adminlogging
+      dockerfile: Dockerfile
+    container_name: adminlogging
+    restart: always
+
+  rustyroad:
+    build:
+      context: ./rustyroad
+      dockerfile: Dockerfile
+    container_name: rustyroad
+    ports:
+      - "1337:1337"
+    depends_on:
+      - adminlogging
+    restart: always
