@@ -1,0 +1,1 @@
+[Snooz](https://github.com/samaqlo/Forensics-AKASEC-CTF-2024/blob/main/writeup.md)
