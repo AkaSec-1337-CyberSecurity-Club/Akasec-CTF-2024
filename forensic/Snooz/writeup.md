@@ -32,7 +32,7 @@ we got a password for a pastecode notes "5n00zm3m3rbr0z", now we should look in 
 
 now we should recover the notes in sticky note and notepad. we start with sticky note we should dump the process files in order to get the file where the note texts are stored "DataSectionObject.plum.sqlite-wal.dat":
 
-![alt text](https://github.com/samaqlo/Forensics-AKASEC-CTF-2024/blob/main/screenshots/stickynotecontent.png)
+![alt text](https://github.com/samaqlo/Forensics-AKASEC-CTF-2024/blob/main/screenshots/dumpfilesstickynote.png))
 
 ![alt text](https://github.com/samaqlo/Forensics-AKASEC-CTF-2024/blob/main/screenshots/stickynotecontent.png)
 
