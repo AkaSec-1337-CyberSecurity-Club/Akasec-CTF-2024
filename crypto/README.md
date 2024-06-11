@@ -248,3 +248,75 @@ then:
     
     print(long_to_bytes(Integer(m1)))
 
+## [Magic](https://github.com/sou200/Akasec-CTF-2024/tree/master/magic)
+All you get is the connection you have.
+
+**source: (REDACTED)** 
+
+	from Crypto.Util.number import bytes_to_long, getPrime
+	
+	def generate_rsa_keys(bits=512):
+	    p = getPrime(bits)
+	    q = getPrime(bits)
+	    n = p * q
+	    e = 0x10001
+	    return n, e
+	
+	def rsa_encrypt(m, e, n):
+	    return pow(m, e, n)
+	
+	FLAG = b"AKASEC{7alawa_ayayay_tbt_m3ana_asa7bi}"
+	
+	def main():
+	    n, e = generate_rsa_keys()
+	    print("n = {}\ne = {}\n".format(n, e))
+	    while True:
+	        try:
+	            magic_number = int(input("give your magic number: "))
+	        except KeyboardInterrupt:
+	            exit()
+	        except:
+	            print("Are sure about that ...")
+	            continue
+	        if magic_number < 0:
+	            print("can't shif... Nevermind")
+	            continue
+	        m = bytes_to_long(FLAG)
+	        m >>= magic_number
+	        encrypted_flag = rsa_encrypt(m, e, n)
+	        print("c = {}".format(encrypted_flag))
+	
+	if __name__ == "__main__":
+	    main()
+
+if you give the magic number a negative number it will gives you `can't shif... Nevermind` as a hint, so the magic number is how many bits does the flag shifted right before encrypting it usnig public keys `N`, `e`.
+so to solve it we have to `pwntools` and shift the flag `byte by byte (8-bit)` and bruteforce each character and compare the cipher text with the server shifted chipher.
+ 
+**solve:**
+
+	from pwn import *
+	from Crypto.Util.number import *
+	from string import printable
+	
+	p = remote('20.80.240.190',4455)
+	flag = ""
+	
+	p.recvuntil(b"n = ")
+	n = int(p.recvline().decode()[:-1])
+	e = 65537
+	
+	for i in range(8*50, -1, -8):
+	    p.recvuntil(b'number: ')
+	    p.sendline(str(i).encode())
+	    c = int(p.recvline().split()[-1])
+	    
+	    print(flag)
+	    for j in printable:
+	        payload = flag + j
+	        payload = bytes_to_long(payload.encode())
+	        cc = pow(payload,e,n)
+	        if c == cc:
+	            flag += j
+	            break
+	
+	print("this is the flag: " + flag)
