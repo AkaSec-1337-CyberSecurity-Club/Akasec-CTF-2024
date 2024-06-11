@@ -1,6 +1,6 @@
-### > Portugal :
+### Portugal :
 
-# > Description :
+# Description :
 
 > I accidentally left my computer unlocked at the coffee shop while I stepped away. I'm sure that someone took advantage of the opportunity and was searching for something.
 
