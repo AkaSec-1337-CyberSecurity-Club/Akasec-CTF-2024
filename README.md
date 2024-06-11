@@ -34,3 +34,5 @@ To be continued...
 | sperm_rev | Easy | [Reverse](https://github.com/AkaSec-1337-CyberSecurity-Club/Akasec-CTF-2024/tree/main/reverse) | 460 | 100 | [pengo](https://github.com/P3enguin) | [Writeup](https://github.com/AkaSec-1337-CyberSecurity-Club/Akasec-CTF-2024/tree/main/reverse/sperm_rev/README.md) |
 | packeta | Medium | [Reverse](https://github.com/AkaSec-1337-CyberSecurity-Club/Akasec-CTF-2024/tree/main/reverse) | 17 | 460 | [pengo](https://github.com/P3enguin) | [Writeup](https://github.com/AkaSec-1337-CyberSecurity-Club/Akasec-CTF-2024/tree/main/reverse/packeta/README.md) |
 | orgalorg | Hard | [Reverse](https://github.com/AkaSec-1337-CyberSecurity-Club/Akasec-CTF-2024/tree/main/reverse) | 5 | 498 | [pengo](https://github.com/P3enguin) | [Writeup](https://github.com/AkaSec-1337-CyberSecurity-Club/Akasec-CTF-2024/tree/main/reverse/orgalorg/README.md) |
+| Upload | Easy | [Web](https://github.com/AkaSec-1337-CyberSecurity-Club/Akasec-CTF-2024/tree/main/reverse) | 158 | 100 | [S0nG0ku](https://github.com/P3enguin) | [Writeup](https://github.com/AkaSec-1337-CyberSecurity-Club/Akasec-CTF-2024/tree/main/reverse/orgalorg/README.md) |
+
