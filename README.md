@@ -30,4 +30,4 @@ To be continued...
 | Twin | Medium | Crypto | 38 | 281 | [0VN1](https://github.com/sou200) | [Writeup](https://github.com/AkaSec-1337-CyberSecurity-Club/Akasec-CTF-2024/tree/main/crypto#twin) |
 | Magic | Medium | Crypto | 15 | 469 | [0VN1](https://github.com/sou200) | [Writeup](https://github.com/AkaSec-1337-CyberSecurity-Club/Akasec-CTF-2024/tree/main/crypto#magic) |
 | My Calculus Lab | Medium | Crypto | 19 | 449 | [M411K](https://github.com/mwlik) | [Writeup](https://github.com/AkaSec-1337-CyberSecurity-Club/Akasec-CTF-2024/blob/main/crypto/My_Calculus_Lab/solve/solve.py) |
-| Snooz | Medium | DFIR | 21 | 436 | [Samaqlo](https://github.com/samaqlo) | [Writeup](https://github.com/AkaSec-1337-CyberSecurity-Club/Akasec-CTF-2024/blob/main/forensic/Snooz/writeup.md) |
+| Snooz | Medium | DFIR | 21 | 436 | [Samaqlo](https://github.com/samaqlo) | [Writeup](https://github.com/AkaSec-1337-CyberSecurity-Club/Akasec-CTF-2024/blob/main/DFIR/Snooz/writeup.md) |
