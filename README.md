@@ -33,4 +33,4 @@ To be continued...
 | Snooz | Medium | DFIR | 21 | 436 | [Samaqlo](https://github.com/samaqlo) | [Writeup](https://github.com/AkaSec-1337-CyberSecurity-Club/Akasec-CTF-2024/blob/main/DFIR/Snooz/writeup.md) |
 | sperm_rev | Easy | reverse | 460 | 100 | [pengo](https://github.com/P3enguin) | [Writeup](https://github.com/AkaSec-1337-CyberSecurity-Club/Akasec-CTF-2024/tree/main/reverse/sperm_rev/README.md) |
 | packeta | Easy | reverse | 17 | 460 | [pengo](https://github.com/P3enguin) | [Writeup](https://github.com/AkaSec-1337-CyberSecurity-Club/Akasec-CTF-2024/tree/main/reverse/packeta/README.md) |
-| packeta | Easy | reverse | 5 | 498 | [pengo](https://github.com/P3enguin) | [Writeup](https://github.com/AkaSec-1337-CyberSecurity-Club/Akasec-CTF-2024/tree/main/reverse/orgalorg/README.md) |
+| orgalorg | Easy | reverse | 5 | 498 | [pengo](https://github.com/P3enguin) | [Writeup](https://github.com/AkaSec-1337-CyberSecurity-Club/Akasec-CTF-2024/tree/main/reverse/orgalorg/README.md) |
