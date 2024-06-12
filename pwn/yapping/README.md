@@ -1,11 +1,11 @@
 # Description
 
-![](./media/Screen%20Shot%202024-06-12%20at%208.42.56%20PM.png)
+![](./media/Screen%20Shot%202024-06-12%20at%2010.15.33%20PM.png)
 
 ## analyzing the binary
 first let's decompile the binary so we can figure out what it does, it reads input from user and then print an ascii art
 
-![](./media/Screen%20Shot%202024-06-10%20at%2010.49.03%20PM.png)
+![](./media/Screen%20Shot%202024-06-12%20at%208.42.56%20PM.png)
 
 there is also a `win` function that when called print the output of `flag.txt` file but only if the global variable `user == "admin"`
 
