@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  yapping:
+    build: ./chall/.
+    ports:
+      - "14124:14124"
