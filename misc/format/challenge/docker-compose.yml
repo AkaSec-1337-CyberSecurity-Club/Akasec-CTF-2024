@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  ctf-challenge:
+    build: .
+    ports:
+      - "4213:4213"
+    container_name: ctf_challenge_container
+    restart: always
