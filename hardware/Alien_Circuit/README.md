@@ -28,7 +28,7 @@ If you know how to reverse the effect of each component of the circuit youll kno
 
 As intimidating as it seems this can be broken down to just to two resistors:
 
-![image](https://github.com/AkaSec-1337-CyberSecurity-Club/Akasec-CTF-2024/assets/73129654/fd9d2f13-c666-4985-a65b-be7c1f7f6df7)
+![image](https://github.com/AkaSec-1337-CyberSecurity-Club/Akasec-CTF-2024/assets/73129654/01c8ccf8-6f00-429f-abc8-a4d24deabce0)
 
 with Z1 = 4 ohm and Z2 = 1 ohm.
 
