@@ -95,4 +95,4 @@ while True:
 ```
 
 ## More Interesting Write-ups:
-The [writeup](https://ihuomtia.onrender.com/akasec-hw-alien-circuit) of this player is more comprehesive than mine (the author 😊), I recommend to check it out.
+These writeups: [ihuomtia](https://ihuomtia.onrender.com/akasec-hw-alien-circuit), [jbryant0653](https://jbryant0653.github.io/CTF%20Writeups/Hardware/%E2%80%9CAlien%20Circuit%E2%80%9D%20akaCTF2024%20Hardware.html) are more comprehesive than mine (the author 😊), I recommend you check them out.
